@@ -1,0 +1,21 @@
+.parent{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.child{
+    background-color: blanchedalmond;
+    border: 1px solid red;
+    width: 30px;
+    flex-basis: 100px;
+    flex-shrink: 0;
+}
+.search-box{
+    /* flex-grow: 3;
+    flex-shrink:1; */
+    justify-content: ;
+}
+.cart{
+    /* flex-grow: 1; */
+}

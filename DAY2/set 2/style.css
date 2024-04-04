@@ -10,9 +10,8 @@
    nesting cannnot be done in p *
    rem is equivalent to root tag/element 1 rem = 16px
    */
-   
 
-.btn{
+/* .btn{
     display: block;
     padding: 1em;
     border-radius: 8px;
@@ -23,4 +22,72 @@
 }
 .btn-small{
     font-size: 10px;
+} */
+/* body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
 }
+.parent{
+    height: 100%;
+    background-color: rgb(49, 9, 226);
+}
+.child{
+    min-height: 100px;
+    max-height: 300px;
+    background-color: rgb(197, 34, 40);
+    overflow: hidden;
+    overflow: scroll;
+} */
+
+body {
+  background-color: aqua;
+  height: 100vh;
+  width: 100vw;
+  padding: 10px 32px;
+}
+
+/* .parent{
+  ol{
+    background-color: blueviolet; */
+
+/* } */
+/* ul:first-child{
+    background-color: blue
+    ; */
+/* }
+  ul:last-child{
+    /* background-color: green;
+     li:first-child{
+        background-color: aliceblue;
+        width: fit-content;
+    }
+    li:nth-child(3){
+       background-color: rgb(210, 36, 213);
+       width: fit-content;
+   }
+     li:last-child{
+        background-color: rgb(5, 28, 48);
+        width: fit-content;
+    } */
+
+/* li:nth-of-type(2){
+        background-color: blue;
+    } */
+
+.parent ul {
+  background-color: blue;
+}
+.parent > ul {
+  background-color: brown;
+}
+.parent + ul {
+  background-color: gray;
+}
+
+/* .child>:first-child{           single colon - pseudo calss  double colon pseudo element
+    background-color: brown;
+}
+.child>:nth-child(3){
+    background-color: brown;
+} */
