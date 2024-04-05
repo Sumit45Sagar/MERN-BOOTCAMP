@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: beige;
+}
+
+.parent{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    /* position: relative; */
+    top: 100px;
+    left: 100px;
+}
+
+section{
+    position: sticky;
+    top: 5px;
+}

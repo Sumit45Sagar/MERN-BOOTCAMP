@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: beige;
+}
+
+button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+
+    padding: 8px 16px;
+    border-radius: 8px;
+
+    transition-property: scale, background-color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 300ms;
+/* 
+    width: calc(100% - 50px);   inherit display none visibility none unseed*/
+
+    
+}
+.ball{
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-timing-function:  linear ;
+
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+button:hover{
+    background-color: blue;
+    cursor: pointer;
+    scale: 1.5;
+}
+
+@keyframes bounce {
+    from{
+        top: 20px;
+        left: 0px;
+    }
+
+    to{
+        bottom: 300px;
+        right: 300px;
+    }
+    
+}
