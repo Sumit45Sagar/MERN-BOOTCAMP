@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form handling</title>
+</head>
+<body>
+    <div style="border: 5px solid red; border-radius: 30px; margin: 30px; padding: 30px;background-color: aqua;" >
+        <form onsubmit="submitForm(event)">
+            <label for="">firstname</label>
+            <input type="text" name="firstname" placeholder="firstname" onkeydown="fnamechange(event)"/><br><br>  <!-- onkeyup 3 keys -->
+            <label for="">secondname</label>
+            <input type="text" name="secondname" placeholder="secondname"/><br><br>
+           <label for="">age</label>
+            <input type="number" name="age" placeholder="age"/><br><br>
+            <label for="">Hobbies</label><br><br>
+            
+            <input type="checkbox" name="hobbies" value="webD"/> <label for="">webd</label>
+            
+            <input type="checkbox" name="hobbies" value="sports"/><label for="">sports</label>
+          
+            <input type="checkbox" name="hobbies" value="drawing"/>  <label for="">drawing</label><br><br>
+            <button>SUBMIT</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
